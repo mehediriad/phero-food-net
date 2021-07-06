@@ -114,3 +114,23 @@ body{
 .social-count-box small{
     font-size: 16px;
 }
+.social-count-box a{
+    text-decoration: none;
+    color:black;
+}
+footer{
+    text-align: center;
+    background:#0B0D17;
+    padding:2% 0 5% 0;
+}
+footer a{
+    text-decoration: none;
+}
+footer h2{
+    color:#5B5B5B;
+    font-size: 30px;
+    font-weight: bold;
+}
+footer p{
+    color:#5B5B5B;
+}
