@@ -53,13 +53,44 @@ body{
 }
 .about-me>.half-box{
     width:40%;
+    margin:0 5%;
 }
 .about-me>.half-box img{
-    width:61%;
+    width:68%;
     margin:0 auto;
     display:block;
 }
 .about-me>.half-box p{
-    font-size:18px;
+    font-size:16px;
     margin-bottom:50px;
+}
+
+.my-recipies{
+    padding:0 5%;
+    
+}
+.my-recipies>h2{
+    font-size:40px;
+    font-weight: bold;
+    text-align: center;
+    color:#676767;
+}
+.my-recipies>p{
+    text-align: center;
+    width:50%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.recipie-box{
+    width:30%;
+    margin:0 3%;
+    box-shadow: 0 0 40px 5px #ddd;
+    border-radius:15px;
+    padding:1.5%;
+}
+.recipie-box img{
+    width:100%;
+}
+.recipie-box h2{
+    font-weight:bold;
 }
