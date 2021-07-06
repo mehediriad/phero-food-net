@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+.orange-color{
+    color:#FB934A;
+}
+.food-network{
+    display:flex;
+    padding:5%;
+}
+.half-box{
+    width:50%;
+    padding:2%;
+}
+.half-box h1{
+    font-size: 60px;
+    color:#575757;
+    font-weight: bold;
+}
+.half-box p{
+    color:#828282;
+    font-size: 20px;
+}
+.half-box a{
+    text-decoration: none;
+    padding:20px 40px;
+    border-radius: 40px;
+    font-size:18px;
+    margin-top:20px;
+    display:inline-block;
+    color:white;
+    background: linear-gradient(to right,#FB964B,#FE4B2F);
+    box-shadow: 0 0 50px 5px #FDAC8F;
+}
+.half-box img{
+    width:100%;
+}
