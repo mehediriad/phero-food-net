@@ -6,8 +6,10 @@ body{
 .orange-color{
     color:#FB934A;
 }
-.food-network{
+.flex-box{
     display:flex;
+}
+.food-network{
     padding:5%;
 }
 .half-box{
@@ -35,5 +37,29 @@ body{
     box-shadow: 0 0 50px 5px #FDAC8F;
 }
 .half-box img{
-    width:100%;
+    width:90%;
+    
+}
+.half-box h2{
+    font-size:40px;
+    font-weight: bold;
+    color:#707070;
+}
+.about-me{
+    background: url(images/bg-fream.png);
+    background-repeat: no-repeat;
+    background-size:100%; 
+    padding:5%;
+}
+.about-me>.half-box{
+    width:40%;
+}
+.about-me>.half-box img{
+    width:61%;
+    margin:0 auto;
+    display:block;
+}
+.about-me>.half-box p{
+    font-size:18px;
+    margin-bottom:50px;
 }
